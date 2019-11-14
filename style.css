@@ -1,16 +1,14 @@
 body {
-    background: #F5F5F5;
+    background: #424242;
     font-family: sans-serif;
-    color: #000;
+    color: #FFF;
     margin: 0;
 }
 
 .header {
     background: #5E6073;
     background: linear-gradient(160deg, rgba(94,96,115,1) 0%, rgba(137,163,178,1) 35%, rgba(178,211,190,1) 65%, rgba(242,244,209,1) 100%);
-    color: #FFF;
     height: 10vh;
-    width: 100%;
     margin: 0;
     padding: 1em;
     padding-bottom: 0;
@@ -19,4 +17,13 @@ body {
 
 .header h2 {
     margin: 0;
+}
+
+.content {
+    padding: 1em 4em;
+    font-size: 14pt;
+}
+
+code {
+    font-family: Consolas, monospaced;
 }
