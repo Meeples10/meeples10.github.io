@@ -33,7 +33,7 @@ code.inline {
     border: 1px solid #616161;
     word-wrap: break-word;
     box-decoration-break: clone;
-    padding: .1rem .3rem .1rem;
+    padding: .05rem .3rem .05rem;
     border-radius: .2rem;
 }
 
