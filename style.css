@@ -28,6 +28,15 @@ code, .content.code, pre {
     font-family: Consolas, monospace;
 }
 
+code.inline {
+    background: #515151;
+    border: 1px solid #616161;
+    word-wrap: break-word;
+    box-decoration-break: clone;
+    padding: .1rem .3rem .1rem;
+    border-radius: .2rem;
+}
+
 .emphasis {
     color: #89A3B2;
 }
