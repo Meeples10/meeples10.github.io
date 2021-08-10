@@ -24,7 +24,7 @@ body {
     font-size: 14pt;
 }
 
-code {
+code, .content.code, pre {
     font-family: Consolas, monospace;
 }
 
@@ -72,8 +72,6 @@ table.raw-data td {
 table.raw-data th {
     font-weight: normal;
     background-color: #555555;
-    position: sticky;
-    top: 0;
 }
 
 table.raw-data th:nth-child(odd) {
@@ -82,4 +80,44 @@ table.raw-data th:nth-child(odd) {
 
 table.raw-data tr:nth-child(odd) {
     background-color: rgba(255, 255, 255, 0.1);
+}
+
+.item-list-by-version h3, .item-list-by-version h4 {
+    margin-bottom: 0.5em;
+    margin-top: 0;
+}
+
+.item-list-by-version span.date {
+    font-weight: normal;
+}
+
+.item-list-by-version ul {
+    margin-top: 0;
+    list-style-type: "\2023\00A0";
+    padding-left: 1.5em;
+}
+
+.item-list-by-version .version-section {
+    border: 1px solid rgba(137,163,178,1);
+    border-radius: 0.33em;
+    padding: 0.5em;
+    display: table;
+    margin-bottom: 1em;
+}
+
+.item-list-by-version .version-section ul {
+    column-count: 2;
+}
+
+.item-list-by-version .version-title {
+    font-weight: normal;
+}
+
+table.centered th, table.centered td {
+    text-align: center;
+}
+
+table.sticky-header th {
+    position: sticky;
+    top: 0;
 }
