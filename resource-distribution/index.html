@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minecraft Resource Distributon | meeples10.github.io</title>
+        <link rel="stylesheet" type="text/css" href="../style.css" />
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="header">
+            <h2 id="header-text">Minecraft resource distrubution by altitude</h2>
+        </div>
+        <div class="content">
+            <p id="about">The program used to retrieve this data can be found <a href="https://github.com/Meeples10/MCResourceAnalyzer">here</a>. Precompiled JARs can be downloaded from the <a href="https://github.com/Meeples10/MCResourceAnalyzer/releases">Releases page</a>.</p>
+            <p>For versions 1.16 to 1.18, <a href="../world-pregenerator.html">this datapack</a> was used to generate large numbers of chunks for analysis.</p>
+            <p>Unless otherwise specified, chunks for every version from Beta 1.3 onward were generated using the seed <code class="inline">gargamel</code>.</p>
+            <p>All values within the raw data have been rounded to have no more than 10 digits after the decimal.</p>
+            <p>Note that due to the way Minecraft stores chunks, counts for air may be inaccurate at high altitudes.</p>
+            <p>This project was inspired by a <a href="https://minecraft.fandom.com/wiki/File:Block_layers_overworld_1.5.svg">graph</a> created by <a href="https://minecraft.fandom.com/wiki/User:Orthotope">Orthotope</a> in 2013 and a tool created by &ldquo;TR&rdquo; of <a href="https://web.archive.org/web/20200620084759/http://www.digital-trauma.de/mc.html">Digital-Trauma.de</a> in 2012.</p>
+            <p>If you have any questions, you can <a href="mailto:mc.meeples10@gmail.com">contact me directly</a> or <a href="https://github.com/Meeples10/MCResourceAnalyzer/issues">create a GitHub issue</a>.</p>
+            <br>
+
+            <h2 style="font-weight: normal" id="1.17.1">Minecraft 1.18</h2>
+            <div class="card">
+                <p class="card-header">Overworld</p>
+                <div class="card-content">
+                    <p><a href="1.18/preview.html#overworld">Preview</a> &middot; <a href="1.18/overworld.csv">CSV</a> &middot; <a href="1.18/overworld.html">Table</a></p>
+                    <p>Chunks analyzed: 2,240,506</p>
+                    <p>Total blocks: 29,657,931,776</p>
+                    <p>Unique blocks: 385</p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Nether</p>
+                <div class="card-content">
+                    <p><a href="1.18/preview.html#nether">Preview</a> &middot; <a href="1.18/nether.csv">CSV</a> &middot; <a href="1.18/nether.html">Table</a></p>
+                    <p>Chunks analyzed: 1,873,662</p>
+                    <p>Total blocks: 23,633,035,264</p>
+                    <p>Unique blocks: 63</p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">End</p>
+                <div class="card-content">
+                    <p><a href="1.18/preview.html#end">Preview</a> &middot; <a href="1.18/end.csv">CSV</a> &middot; <a href="1.18/end.html">Table</a></p>
+                    <p>Chunks analyzed: 1,757,698</p>
+                    <p>Total blocks: 11,777,462,272</p>
+                    <p>Unique blocks: 23</p>
+                </div>
+            </div>
+
+            <h2 style="font-weight: normal" id="1.17.1">Minecraft 1.17.1</h2>
+            <div class="card">
+                <p class="card-header">Overworld</p>
+                <div class="card-content">
+                    <p><a href="1.17.1/preview.html#overworld">Preview</a> &middot; <a href="1.17.1/overworld.csv">CSV</a> &middot; <a href="1.17.1/overworld.html">Table</a></p>
+                    <p>Chunks analyzed: 8,447,987</p>
+                    <p>Total blocks: 553,542,414,336</p>
+                    <p>Unique blocks: 356</p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Nether</p>
+                <div class="card-content">
+                    <p><a href="1.17.1/preview.html#nether">Preview</a> &middot; <a href="1.17.1/nether.csv">CSV</a> &middot; <a href="1.17.1/nether.html">Table</a></p>
+                    <p>Chunks analyzed: 434,192</p>
+                    <p>Total blocks: 26,558,418,944</p>
+                    <p>Unique blocks: 63</p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">End</p>
+                <div class="card-content">
+                    <p><a href="1.17.1/preview.html#end">Preview</a> &middot; <a href="1.17.1/end.csv">CSV</a> &middot; <a href="1.17.1/end.html">Table</a></p>
+                    <p>Chunks analyzed: 305,108</p>
+                    <p>Total blocks: 19,837,513,728</p>
+                    <p>Unique blocks: 23</p>
+                </div>
+            </div>
+
+            <h2 style="font-weight: normal" id="1.16.5">Minecraft 1.16.5</h2>
+            <div class="card">
+                <p class="card-header">Overworld</p>
+                <div class="card-content">
+                    <p><a href="1.16.5/preview.html#overworld">Preview</a> &middot; <a href="1.16.5/overworld.csv">CSV</a> &middot; <a href="1.16.5/overworld.html">Table</a></p>
+                    <p>Chunks analyzed: 2,286,875</p>
+                    <p>Total blocks: 147,740,213,248</p>
+                    <p>Unique blocks: 335</p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Nether</p>
+                <div class="card-content">
+                    <p><a href="1.16.5/preview.html#nether">Preview</a> &middot; <a href="1.16.5/nether.csv">CSV</a> &middot; <a href="1.16.5/nether.html">Table</a></p>
+                    <p>Chunks analyzed: 1,697,167</p>
+                    <p>Total blocks: 100,211,253,248</p>
+                    <p>Unique blocks: 63</p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">End</p>
+                <div class="card-content">
+                    <p><a href="1.16.5/preview.html#end">Preview</a> &middot; <a href="1.16.5/end.csv">CSV</a> &middot; <a href="1.16.5/end.html">Table</a></p>
+                    <p>Chunks analyzed: 303,100</p>
+                    <p>Total blocks: 17,778,118,656</p>
+                    <p>Unique blocks: 23</p>
+                </div>
+            </div>
+
+            <h2 style="font-weight: normal" id="1.15.2">Minecraft 1.15.2</h2>
+            <div class="card">
+                <p class="card-header">Overworld</p>
+                <div class="card-content">
+                    <p><a href="1.15.2/preview.html#overworld">Preview</a> &middot; <a href="1.15.2/overworld.csv">CSV</a> &middot; <a href="1.15.2/overworld.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Nether</p>
+                <div class="card-content">
+                    <p><a href="1.15.2/preview.html#nether">Preview</a> &middot; <a href="1.15.2/nether.csv">CSV</a> &middot; <a href="1.15.2/nether.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">End</p>
+                <div class="card-content">
+                    <p><a href="1.15.2/preview.html#end">Preview</a> &middot; <a href="1.15.2/end.csv">CSV</a> &middot; <a href="1.15.2/end.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+
+            <h2 style="font-weight: normal" id="1.14.4">Minecraft 1.14.4</h2>
+            <div class="card">
+                <p class="card-header">Overworld</p>
+                <div class="card-content">
+                    <p><a href="1.14.4/preview.html#overworld">Preview</a> &middot; <a href="1.14.4/overworld.csv">CSV</a> &middot; <a href="1.14.4/overworld.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Nether</p>
+                <div class="card-content">
+                    <p><a href="1.14.4/preview.html#nether">Preview</a> &middot; <a href="1.14.4/nether.csv">CSV</a> &middot; <a href="1.14.4/nether.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">End</p>
+                <div class="card-content">
+                    <p><a href="1.14.4/preview.html#end">Preview</a> &middot; <a href="1.14.4/end.csv">CSV</a> &middot; <a href="1.14.4/end.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+
+            <h2 style="font-weight: normal" id="1.13.2">Minecraft 1.13.2</h2>
+            <div class="card">
+                <p class="card-header">Overworld</p>
+                <div class="card-content">
+                    <p><a href="1.13.2/preview.html#overworld">Preview</a> &middot; <a href="1.13.2/overworld.csv">CSV</a> &middot; <a href="1.13.2/overworld.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Nether</p>
+                <div class="card-content">
+                    <p><a href="1.13.2/preview.html#nether">Preview</a> &middot; <a href="1.13.2/nether.csv">CSV</a> &middot; <a href="1.13.2/nether.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">End</p>
+                <div class="card-content">
+                    <p><a href="1.13.2/preview.html#end">Preview</a> &middot; <a href="1.13.2/end.csv">CSV</a> &middot; <a href="1.13.2/end.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+
+            <h2 style="font-weight: normal" id="1.12.2">Minecraft 1.12.2</h2>
+            <div class="card">
+                <p class="card-header">Overworld</p>
+                <div class="card-content">
+                    <p><a href="1.12.2/preview.html#overworld">Preview</a> &middot; <a href="1.12.2/overworld.csv">CSV</a> &middot; <a href="1.12.2/overworld.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Nether</p>
+                <div class="card-content">
+                    <p><a href="1.12.2/preview.html#nether">Preview</a> &middot; <a href="1.12.2/nether.csv">CSV</a> &middot; <a href="1.12.2/nether.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">End</p>
+                <div class="card-content">
+                    <p><a href="1.12.2/preview.html#end">Preview</a> &middot; <a href="1.12.2/end.csv">CSV</a> &middot; <a href="1.12.2/end.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+
+            <h2 style="font-weight: normal" id="1.11.2">Minecraft 1.11.2</h2>
+            <div class="card">
+                <p class="card-header">Overworld</p>
+                <div class="card-content">
+                    <p><a href="1.11.2/preview.html#overworld">Preview</a> &middot; <a href="1.11.2/overworld.csv">CSV</a> &middot; <a href="1.11.2/overworld.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Nether</p>
+                <div class="card-content">
+                    <p><a href="1.11.2/preview.html#nether">Preview</a> &middot; <a href="1.11.2/nether.csv">CSV</a> &middot; <a href="1.11.2/nether.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">End</p>
+                <div class="card-content">
+                    <p><a href="1.11.2/preview.html#end">Preview</a> &middot; <a href="1.11.2/end.csv">CSV</a> &middot; <a href="1.11.2/end.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+
+            <h2 style="font-weight: normal" id="1.10.2">Minecraft 1.10.2</h2>
+            <div class="card">
+                <p class="card-header">Overworld</p>
+                <div class="card-content">
+                    <p><a href="1.10.2/preview.html#overworld">Preview</a> &middot; <a href="1.10.2/overworld.csv">CSV</a> &middot; <a href="1.10.2/overworld.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Nether</p>
+                <div class="card-content">
+                    <p><a href="1.10.2/preview.html#nether">Preview</a> &middot; <a href="1.10.2/nether.csv">CSV</a> &middot; <a href="1.10.2/nether.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">End</p>
+                <div class="card-content">
+                    <p><a href="1.10.2/preview.html#end">Preview</a> &middot; <a href="1.10.2/end.csv">CSV</a> &middot; <a href="1.10.2/end.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+
+            <h2 style="font-weight: normal" id="1.9.4">Minecraft 1.9.4</h2>
+            <div class="card">
+                <p class="card-header">Overworld</p>
+                <div class="card-content">
+                    <p><a href="1.9.4/preview.html#overworld">Preview</a> &middot; <a href="1.9.4/overworld.csv">CSV</a> &middot; <a href="1.9.4/overworld.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Nether</p>
+                <div class="card-content">
+                    <p><a href="1.9.4/preview.html#nether">Preview</a> &middot; <a href="1.9.4/nether.csv">CSV</a> &middot; <a href="1.9.4/nether.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">End</p>
+                <div class="card-content">
+                    <p><a href="1.9.4/preview.html#end">Preview</a> &middot; <a href="1.9.4/end.csv">CSV</a> &middot; <a href="1.9.4/end.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+
+            <h2 style="font-weight: normal" id="1.8.8">Minecraft 1.8.8</h2>
+            <div class="card">
+                <p class="card-header">Overworld</p>
+                <div class="card-content">
+                    <p><a href="1.8.8/preview.html#overworld">Preview</a> &middot; <a href="1.8.8/overworld.csv">CSV</a> &middot; <a href="1.8.8/overworld.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Nether</p>
+                <div class="card-content">
+                    <p><a href="1.8.8/preview.html#nether">Preview</a> &middot; <a href="1.8.8/nether.csv">CSV</a> &middot; <a href="1.8.8/nether.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">End</p>
+                <div class="card-content">
+                    <p><a href="1.8.8/preview.html#end">Preview</a> &middot; <a href="1.8.8/end.csv">CSV</a> &middot; <a href="1.8.8/end.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+
+            <h2 style="font-weight: normal" id="1.7.10">Minecraft 1.7.10</h2>
+            <div class="card">
+                <p class="card-header">Overworld</p>
+                <div class="card-content">
+                    <p><a href="1.7.10/preview.html#overworld">Preview</a> &middot; <a href="1.7.10/overworld.csv">CSV</a> &middot; <a href="1.7.10/overworld.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Nether</p>
+                <div class="card-content">
+                    <p><a href="1.7.10/preview.html#nether">Preview</a> &middot; <a href="1.7.10/nether.csv">CSV</a> &middot; <a href="1.7.10/nether.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">End</p>
+                <div class="card-content">
+                    <p><a href="1.7.10/preview.html#end">Preview</a> &middot; <a href="1.7.10/end.csv">CSV</a> &middot; <a href="1.7.10/end.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+
+            <h2 style="font-weight: normal" id="1.6.4">Minecraft 1.6.4</h2>
+            <div class="card">
+                <p class="card-header">Overworld</p>
+                <div class="card-content">
+                    <p><a href="1.6.4/preview.html#overworld">Preview</a> &middot; <a href="1.6.4/overworld.csv">CSV</a> &middot; <a href="1.6.4/overworld.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Nether</p>
+                <div class="card-content">
+                    <p><a href="1.6.4/preview.html#nether">Preview</a> &middot; <a href="1.6.4/nether.csv">CSV</a> &middot; <a href="1.6.4/nether.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">End</p>
+                <div class="card-content">
+                    <p><a href="1.6.4/preview.html#end">Preview</a> &middot; <a href="1.6.4/end.csv">CSV</a> &middot; <a href="1.6.4/end.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+
+            <h2 style="font-weight: normal" id="1.5.2">Minecraft 1.5.2</h2>
+            <div class="card">
+                <p class="card-header">Overworld</p>
+                <div class="card-content">
+                    <p><a href="1.5.2/preview.html#overworld">Preview</a> &middot; <a href="1.5.2/overworld.csv">CSV</a> &middot; <a href="1.5.2/overworld.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Nether</p>
+                <div class="card-content">
+                    <p><a href="1.5.2/preview.html#nether">Preview</a> &middot; <a href="1.5.2/nether.csv">CSV</a> &middot; <a href="1.5.2/nether.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">End</p>
+                <div class="card-content">
+                    <p><a href="1.5.2/preview.html#end">Preview</a> &middot; <a href="1.5.2/end.csv">CSV</a> &middot; <a href="1.5.2/end.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+
+            <h2 style="font-weight: normal" id="1.4.7">Minecraft 1.4.7</h2>
+            <div class="card">
+                <p class="card-header">Overworld</p>
+                <div class="card-content">
+                    <p><a href="1.4.7/preview.html#overworld">Preview</a> &middot; <a href="1.4.7/overworld.csv">CSV</a> &middot; <a href="1.4.7/overworld.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Nether</p>
+                <div class="card-content">
+                    <p><a href="1.4.7/preview.html#nether">Preview</a> &middot; <a href="1.4.7/nether.csv">CSV</a> &middot; <a href="1.4.7/nether.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">End</p>
+                <div class="card-content">
+                    <p><a href="1.4.7/preview.html#end">Preview</a> &middot; <a href="1.4.7/end.csv">CSV</a> &middot; <a href="1.4.7/end.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+
+            <h2 style="font-weight: normal" id="1.3.2">Minecraft 1.3.2</h2>
+            <div class="card">
+                <p class="card-header">Overworld</p>
+                <div class="card-content">
+                    <p><a href="1.3.2/preview.html#overworld">Preview</a> &middot; <a href="1.3.2/overworld.csv">CSV</a> &middot; <a href="1.3.2/overworld.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Nether</p>
+                <div class="card-content">
+                    <p><a href="1.3.2/preview.html#nether">Preview</a> &middot; <a href="1.3.2/nether.csv">CSV</a> &middot; <a href="1.3.2/nether.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">End</p>
+                <div class="card-content">
+                    <p><a href="1.3.2/preview.html#end">Preview</a> &middot; <a href="1.3.2/end.csv">CSV</a> &middot; <a href="1.3.2/end.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+
+            <h2 style="font-weight: normal" id="1.2.5">Minecraft 1.2.5</h2>
+            <div class="card">
+                <p class="card-header">Overworld</p>
+                <div class="card-content">
+                    <p><a href="1.2.5/preview.html#overworld">Preview</a> &middot; <a href="1.2.5/overworld.csv">CSV</a> &middot; <a href="1.2.5/overworld.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Nether</p>
+                <div class="card-content">
+                    <p><a href="1.2.5/preview.html#nether">Preview</a> &middot; <a href="1.2.5/nether.csv">CSV</a> &middot; <a href="1.2.5/nether.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">End</p>
+                <div class="card-content">
+                    <p><a href="1.2.5/preview.html#end">Preview</a> &middot; <a href="1.2.5/end.csv">CSV</a> &middot; <a href="1.2.5/end.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+
+            <h2 style="font-weight: normal" id="1.1">Minecraft 1.1</h2>
+            <div class="card">
+                <p class="card-header">Overworld</p>
+                <div class="card-content">
+                    <p><a href="1.1/preview.html#overworld">Preview</a> &middot; <a href="1.1/overworld.csv">CSV</a> &middot; <a href="1.1/overworld.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Nether</p>
+                <div class="card-content">
+                    <p><a href="1.1/preview.html#nether">Preview</a> &middot; <a href="1.1/nether.csv">CSV</a> &middot; <a href="1.1/nether.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">End</p>
+                <div class="card-content">
+                    <p><a href="1.1/preview.html#end">Preview</a> &middot; <a href="1.1/end.csv">CSV</a> &middot; <a href="1.1/end.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+
+            <h2 style="font-weight: normal" id="1.0">Minecraft 1.0</h2>
+            <div class="card">
+                <p class="card-header">Overworld</p>
+                <div class="card-content">
+                    <p><a href="1.0/preview.html#overworld">Preview</a> &middot; <a href="1.0/overworld.csv">CSV</a> &middot; <a href="1.0/overworld.html">Table</a></p>
+                    <p>Chunks analyzed: 13,561</p>
+                    <p>Total blocks: 444,366,848</p>
+                    <p>Unique blocks: 75</p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Nether</p>
+                <div class="card-content">
+                    <p><a href="1.0/preview.html#nether">Preview</a> &middot; <a href="1.0/nether.csv">CSV</a> &middot; <a href="1.0/nether.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">End</p>
+                <div class="card-content">
+                    <p><a href="1.0/preview.html#end">Preview</a> &middot; <a href="1.0/end.csv">CSV</a> &middot; <a href="1.0/end.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+
+            <h2 style="font-weight: normal" id="b1.7.3">Minecraft Beta 1.7.3</h2>
+            <div class="card">
+                <p class="card-header">Overworld</p>
+                <div class="card-content">
+                    <p><a href="b1.7.3/preview.html#overworld">Preview</a> &middot; <a href="b1.7.3/overworld.csv">CSV</a> &middot; <a href="b1.7.3/overworld.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Nether</p>
+                <div class="card-content">
+                    <p><a href="b1.7.3/preview.html#nether">Preview</a> &middot; <a href="b1.7.3/nether.csv">CSV</a> &middot; <a href="b1.7.3/nether.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+
+            <h2 style="font-weight: normal" id="b1.3">Minecraft Beta 1.3</h2>
+            <div class="card">
+                <p class="card-header">Overworld</p>
+                <div class="card-content">
+                    <p><a href="b1.3/preview.html#overworld">Preview</a> &middot; <a href="b1.3/overworld.csv">CSV</a> &middot; <a href="b1.3/overworld.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Nether</p>
+                <div class="card-content">
+                    <p><a href="b1.3/preview.html#nether">Preview</a> &middot; <a href="b1.3/nether.csv">CSV</a> &middot; <a href="b1.3/nether.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+
+            <h2 style="font-weight: normal" id="b1.2">Minecraft Beta 1.2</h2>
+            <div class="card">
+                <p class="card-header">Overworld</p>
+                <div class="card-content">
+                    <p><a href="b1.2/preview.html#overworld">Preview</a> &middot; <a href="b1.2/overworld.csv">CSV</a> &middot; <a href="b1.2/overworld.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Nether</p>
+                <div class="card-content">
+                    <p><a href="b1.2/preview.html#nether">Preview</a> &middot; <a href="b1.2/nether.csv">CSV</a> &middot; <a href="b1.2/nether.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+
+            <h2 style="font-weight: normal" id="a1.2.6">Minecraft Alpha 1.2.6</h2>
+            <div class="card">
+                <p class="card-header">Overworld</p>
+                <div class="card-content">
+                    <p><a href="a1.2.6/preview.html#overworld">Preview</a> &middot; <a href="a1.2.6/overworld.csv">CSV</a> &middot; <a href="a1.2.6/overworld.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Nether</p>
+                <div class="card-content">
+                    <p><a href="a1.2.6/preview.html#nether">Preview</a> &middot; <a href="a1.2.6/nether.csv">CSV</a> &middot; <a href="a1.2.6/nether.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+
+            <h2 style="font-weight: normal" id="inf20100618">Minecraft Infdev 20100618</h2>
+            <div class="card">
+                <p class="card-header">Overworld</p>
+                <div class="card-content">
+                    <p><a href="inf20100618/preview.html#overworld">Preview</a> &middot; <a href="inf20100618/overworld.csv">CSV</a> &middot; <a href="inf20100618/overworld.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+
+            <h2 style="font-weight: normal" id="indev">Minecraft Indev</h2>
+            <div class="card">
+                <p class="card-header">Island &middot; Normal</p>
+                <div class="card-content">
+                    <p><a href="indev/preview.html#island-normal">Preview</a> &middot; <a href="indev/island-normal.csv">CSV</a> &middot; <a href="indev/island-normal.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Floating &middot; Normal</p>
+                <div class="card-content">
+                    <p><a href="indev/preview.html#floating-normal">Preview</a> &middot; <a href="indev/floating-normal.csv">CSV</a> &middot; <a href="indev/floating-normal.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Flat &middot; Normal</p>
+                <div class="card-content">
+                    <p><a href="indev/preview.html#flat-normal">Preview</a> &middot; <a href="indev/flat-normal.csv">CSV</a> &middot; <a href="indev/flat-normal.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+            <div class="card">
+                <p class="card-header">Inland &middot; Normal</p>
+                <div class="card-content">
+                    <p><a href="indev/preview.html#inland-normal">Preview</a> &middot; <a href="indev/inland-normal.csv">CSV</a> &middot; <a href="indev/inland-normal.html">Table</a></p>
+                    <p>Chunks analyzed: </p>
+                    <p>Total blocks: </p>
+                    <p>Unique blocks: </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -130,3 +130,30 @@ table.sticky-header th {
     position: sticky;
     top: 0;
 }
+
+.indent {
+    margin-left: 1em;
+}
+
+.card {
+    display: inline-block;
+    margin: 0.2em;
+    padding: 0;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+
+.card-header {
+    background: #5E6073;
+    background: linear-gradient(160deg, rgba(94,96,115,1) 0%, rgba(137,163,178,1) 35%, rgba(178,211,190,1) 65%, rgba(242,244,209,1) 100%);
+    height: fit-content;
+    margin: 0;
+    padding: 1em;
+    font-weight: bold;
+    text-shadow: -0.94px 0.342px 5px rgba(94,96,115,1);
+    border-radius: 1em 1em 0 0;
+}
+
+.card-content {
+    padding: 0 1em;
+}
