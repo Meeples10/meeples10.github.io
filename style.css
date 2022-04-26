@@ -157,3 +157,48 @@ table.sticky-header th {
 .card-content {
     padding: 0 1em;
 }
+
+.graph {
+    background: #FFF;
+}
+
+.graph-toggles {
+    column-count: 4;
+    font-size: 11pt;
+    font-family: monospace;
+    line-height: 4ex;
+}
+
+.graph-toggle {
+    padding-left: 0.5ex;
+    box-shadow: -5px 0px 20px #212121;
+}
+
+.collapsible {
+    background: #5E6073;
+    background: linear-gradient(160deg, rgba(94,96,115,1) 0%, rgba(137,163,178,1) 35%, rgba(178,211,190,1) 65%, rgba(242,244,209,1) 100%);
+    cursor: pointer;
+    padding: 1rem;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    color: #FFF;
+    font-size: 18pt;
+    text-shadow: -0.94px 0.342px 5px rgba(94,96,115,1);
+}
+
+.collapsible:not(.active):before {
+    content: '\2795\fe0e\00a0';
+}
+
+.collapsible.active:before {
+    content: '\2796\fe0e\00a0';
+}
+
+.collapsible-content {
+    padding: 0.5em 2em 2em;
+    display: none;
+    overflow: hidden;
+    box-shadow: 0px -2px 10px #212121 inset;
+}
