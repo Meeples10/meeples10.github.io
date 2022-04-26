@@ -168,6 +168,8 @@ const colors = {
 "minecraft:fletching_table":"C5B485",
 "minecraft:flowering_azalea":"6F7149",
 "minecraft:flowering_azalea_leaves":"68882A",
+"minecraft:flowing_lava":"D45A12",
+"minecraft:flowing_water":"35528C",
 "minecraft:furnace":"5B5B5B",
 "minecraft:gilded_blackstone":"372A26",
 "minecraft:glass":"8C9597",
