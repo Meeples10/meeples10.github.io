@@ -100,6 +100,7 @@ function draw(dataset, key) {
 function toggleDraw(name, key, state) {
     if(!(name in enabled)) enabled[name] = [];
     if(state) {
+        if(enabled[name].indexOf(key) > -1) return;
         enabled[name].push(key);
     } else {
         var i = enabled[name].indexOf(key);
