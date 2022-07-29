@@ -34,8 +34,11 @@ ul {
     margin-top: 0;
 }
 
-code, .content.code, pre {
+.ms, code, .content.code, pre {
     font-family: Consolas, monospace;
+}
+
+code {
     background: #424242;
     border: 1px solid #515151;
     word-wrap: break-word;
