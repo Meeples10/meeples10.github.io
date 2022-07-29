@@ -39,8 +39,8 @@ code, .content.code, pre {
 }
 
 code.inline {
-    background: #515151;
-    border: 1px solid #616161;
+    background: #424242;
+    border: 1px solid #515151;
     word-wrap: break-word;
     box-decoration-break: clone;
     padding: .05rem .3rem .05rem;
