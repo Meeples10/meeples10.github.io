@@ -10,7 +10,7 @@ body {
     background: linear-gradient(160deg, rgba(94,96,115,1) 0%, rgba(137,163,178,1) 35%, rgba(178,211,190,1) 65%, rgba(242,244,209,1) 100%);
     height: fit-content;
     margin: 0;
-    padding: 1em;
+    padding: 0.5em 1em;
     font-size: 2.25em;
     text-shadow: -0.94px 0.342px 3px rgba(94,96,115,1);
 }
@@ -22,6 +22,16 @@ body {
 .content {
     padding: 1em 4em;
     font-size: 14pt;
+}
+
+:not(.header) > h2 {
+    padding-bottom: 5px;
+    margin-bottom: 1ex;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+ul {
+    margin-top: 0;
 }
 
 code, .content.code, pre {
