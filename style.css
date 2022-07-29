@@ -36,9 +36,6 @@ ul {
 
 code, .content.code, pre {
     font-family: Consolas, monospace;
-}
-
-code.inline {
     background: #424242;
     border: 1px solid #515151;
     word-wrap: break-word;
@@ -82,7 +79,7 @@ table {
     font-size: 12pt;
 }
 
-table code.inline {
+table code {
     font-size: 11pt;
 }
 
@@ -247,7 +244,7 @@ table.sticky-header th {
         text-shadow: -0.94px 0.342px 3px #CFD9DF;
     }
     
-    code.inline {
+    code {
         background: #FCFCFB;
         border: 1px solid #E6E6DE;
     }
@@ -357,7 +354,7 @@ table.sticky-header th {
         padding-bottom: 0;
     }
     
-    code.inline {
+    code {
         background: #FCFCFB;
         border: 1px solid #E6E6DE;
     }
