@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MeepCore | meeples10.github.io</title>
+        <link rel="stylesheet" type="text/css" href="../../style.css" />
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="header">
+            <h2 id="header-text">MeepCore</h2>
+        </div>
+        <div class="content">
+            <p>Library for Meeples10's plugins.</p>
+            
+            <h2>Downloads</h2>
+            <ul>
+                <li><a href="https://github.com/Meeples10/MeepCore/releases">GitHub</a></li>
+                <li><a href="https://www.spigotmc.org/resources/meepcore.103770/">SpigotMC</a></li>
+            </ul>
+
+            <h2>Commands</h2>
+            <table>
+                <tr>
+                    <th>Command</th>
+                    <th>Description</th>
+                    <th>Permission</th>
+                </tr>
+                <tr>
+                    <td><code class="inline">/meepcore</code></td>
+                    <td>Shows the plugin's help message.</td>
+                    <td><code class="inline">meepcore.use</code></td>
+                </tr>
+                <tr>
+                    <td><code class="inline">/meepcore help</code></td>
+                    <td>Shows the plugin's help message.</td>
+                    <td><code class="inline">meepcore.use</code></td>
+                </tr>
+                <tr>
+                    <td><code class="inline">/meepcore reload</code></td>
+                    <td>Reloads the plugin.</td>
+                    <td><code class="inline">meepcore.use</code></td>
+                </tr>
+                <tr>
+                    <td><code class="inline">/meepcore debug</code></td>
+                    <td>Shows the values defined in the config file and the messages for the user's current locale.</td>
+                    <td><code class="inline">meepcore.use</code></td>
+                </tr>
+                <tr>
+                    <td><code class="inline">/meepcore suite</code></td>
+                    <td>Shows a list of all installed plugins that list MeepCore as a dependency.</td>
+                    <td><code class="inline">meepcore.use</code></td>
+                </tr>
+                <tr>
+                    <td><code class="inline">/meepcore locales</code></td>
+                    <td>Shows a list of locales supported by each plugin that lists MeepCore as a dependency.</td>
+                    <td><code class="inline">meepcore.use</code></td>
+                </tr>
+            </table>
+
+            <h2>Configuration</h2>
+            <p>The default configuration file can be found <a href="https://github.com/Meeples10/MeepCore/blob/master/src/main/resources/config.yml">here</a>.</p>
+            <table>
+                <tr>
+                    <th>Key</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td><code class="inline">color-scheme</code></td>
+                    <td>The color scheme of MeepCore and the plugins that depend on it.
+                        <ul>
+                            <li>0 for MeepCore style</li>
+                            <li>1 for <a href="https://essentialsx.net/">Essentials</a>-like style</li>
+                            <li>2 for muted style</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><code class="inline">fallback-locale</code></td>
+                    <td>If a language file is not found for a player's locale, the plugin will fall back to this language.</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

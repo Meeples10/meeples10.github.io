@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RandomTP | meeples10.github.io</title>
+        <link rel="stylesheet" type="text/css" href="../../style.css" />
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="header">
+            <h2 id="header-text">RandomTP</h2>
+        </div>
+        <div class="content">
+            <p>A plugin that allows server moderators to view the commands used by other players.</p>
+            
+            <h2>Downloads</h2>
+            <ul>
+                <li><a href="https://github.com/Meeples10/RandomTP/releases">GitHub</a></li>
+            </ul>
+
+            <h2>Requirements</h2>
+            <p>This plugin requires <a href="meepcore">MeepCore</a>.</p>
+
+            <h2>Commands</h2>
+            <table>
+                <tr>
+                    <th>Command</th>
+                    <th>Description</th>
+                    <th>Permission</th>
+                </tr>
+                <tr>
+                    <td><code class="inline">/rtp</code></td>
+                    <td>Teleports the user to a random location.</td>
+                    <td><code class="inline">randomtp.use</code></td>
+                </tr>
+                <tr>
+                    <td><code class="inline">/rtp [range]</code></td>
+                    <td>Teleports the user to a random location within <code class="inline">[range]</code> blocks of (0, 0).</td>
+                    <td><code class="inline">randomtp.use</code></td>
+                </tr>
+                <tr>
+                    <td><code class="inline">/rtp reload</code></td>
+                    <td>Reloads the plugin.</td>
+                    <td><code class="inline">randomtp.reload</code></td>
+                </tr>
+                <tr>
+                    <td><code class="inline">/rtp debug</code></td>
+                    <td>Shows debug information.</td>
+                    <td><code class="inline">randomtp.debug</code></td>
+                </tr>
+            </table>
+
+            <h2>Configuration</h2>
+            <p>The default configuration file can be found <a href="https://github.com/Meeples10/RandomTP/blob/master/src/main/resources/config.yml">here</a>.</p>
+            <table>
+                <tr>
+                    <th>Key</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td><code class="inline">enabled-worlds</code></td>
+                    <td>The names of the worlds in which <code class="inline">/randomtp</code> should function.</td>
+                </tr>
+                <tr>
+                    <td><code class="inline">maximum-distance</code></td>
+                    <td>The maximum distance for <code class="inline">/randomtp</code> if no argument is supplied. This value is capped at 30,000,000 blocks.</td>
+                </tr>
+                <tr>
+                    <td><code class="inline">cooldown</code></td>
+                    <td>The cooldown before players are allowed to use the command again, in milliseconds. Set to 0 for no cooldown.</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
