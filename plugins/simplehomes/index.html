@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SimpleHomes | meeples10.github.io</title>
+        <link rel="stylesheet" type="text/css" href="../../style.css" />
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="header">
+            <h2 id="header-text">SimpleHomes</h2>
+        </div>
+        <div class="content">
+            <p>A plugin for disabling the use of written language on a Minecraft server.</p>
+            
+            <h2>Downloads</h2>
+            <ul>
+                <li><a href="https://github.com/Meeples10/SimpleHomes/releases">GitHub</a></li>
+                <li><a href="https://www.spigotmc.org/resources/simplehomes.103998/">SpigotMC</a></li>
+            </ul>
+
+            <h2>Commands</h2>
+            <table>
+                <tr>
+                    <th>Command</th>
+                    <th>Description</th>
+                    <th>Permission</th>
+                </tr>
+                <tr>
+                    <td><code>/home</code></td>
+                    <td>Teleports you to a home. If no name is provided, the name <i>home</i> will be used.</td>
+                    <td><code>simplehomes.home</code></td>
+                </tr>
+                <tr>
+                    <td><code>/sethome</code></td>
+                    <td>Sets a home. If no name is provided, the home will be named <i>home</i>.</td>
+                    <td><code>simplehomes.sethome</code></td>
+                </tr>
+                <tr>
+                    <td><code>/delhome</code></td>
+                    <td>Deletes a home.</td>
+                    <td><code>simplehomes.delhome</code></td>
+                </tr>
+                <tr>
+                    <td><code>/homes</code></td>
+                    <td> 	Lists your homes.</td>
+                    <td><code>simplehomes.homes</code></td>
+                </tr>
+            </table>
+            <p>The permission <code>simplehomes.all</code> can be used to give players access to all SimpleHomes commands.</p>
+
+            <h2>Configuration</h2>
+            <p>The default configuration file can be found <a href="https://github.com/Meeples10/SimpleHomes/blob/master/src/main/resources/config.yml">here</a>.</p>
+            <table>
+                <tr>
+                    <th>Key</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td><code>play-sound</code></td>
+                    <td>If true, a sound will be played when the player is teleported to their home.</td>
+                </tr>
+                <tr>
+                    <td><code>teleport-sound</code></td>
+                    <td>If play-sound is true, this sound will be played when a player uses <code>/home</code>. See <a href="https://minecraft.fandom.com/wiki/Sounds.json#Sound_events">the Minecraft Wiki</a> for a list of available sounds.</td>
+                </tr>
+                <tr>
+                    <td><code>reset-velocity</code></td>
+                    <td>If true, the player's velocity will be reset when teleporting. This prevents fall damage if the player uses <code>/home</code> while falling.</td>
+                </tr>
+                <tr>
+                    <td><code>messages</code></td>
+                    <td>Messages displayed by the plugin.</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
