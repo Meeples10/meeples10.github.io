@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SimpleWarps | meeples10.github.io</title>
+        <link rel="stylesheet" type="text/css" href="../../style.css" />
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="header">
+            <h2 id="header-text">SimpleWarps</h2>
+        </div>
+        <div class="content">
+            <p>A plugin for creating warps.</p>
+            
+            <h2>Downloads</h2>
+            <ul>
+                <li><a href="https://github.com/Meeples10/SimpleWarps/releases">GitHub</a></li>
+                <li><a href="https://www.spigotmc.org/resources/simplewarps.103998/">SpigotMC</a></li>
+            </ul>
+
+            <h2>Commands</h2>
+            <table>
+                <tr>
+                    <th>Command</th>
+                    <th>Description</th>
+                    <th>Permission</th>
+                </tr>
+                <tr>
+                    <td><code>/warp</code></td>
+                    <td>Warps the player to a location.</td>
+                    <td><code>simplewarps.warp</code></td>
+                </tr>
+                <tr>
+                    <td><code>/setwarp</code></td>
+                    <td>Sets a warp.</td>
+                    <td><code>simplewarps.setwarp</code></td>
+                </tr>
+                <tr>
+                    <td><code>/delwarp</code></td>
+                    <td>Deletes a warp.</td>
+                    <td><code>simplewarps.delwarp</code></td>
+                </tr>
+                <tr>
+                    <td><code>/warps</code></td>
+                    <td>Lists all available warps.</td>
+                    <td><code>simplewarps.warps</code></td>
+                </tr>
+            </table>
+
+            <h2>Configuration</h2>
+            <p>The default configuration file can be found <a href="https://github.com/Meeples10/SimpleWarps/blob/master/src/main/resources/config.yml">here</a>.</p>
+            <table>
+                <tr>
+                    <th>Key</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td><code>play-sound</code></td>
+                    <td>If true, a sound will be played when the player is warped.</td>
+                </tr>
+                <tr>
+                    <td><code>teleport-sound</code></td>
+                    <td>If play-sound is true, this sound will be played when a player uses <code>/warp</code>. See <a href="https://minecraft.fandom.com/wiki/Sounds.json#Sound_events">the Minecraft Wiki</a> for a list of available sounds.</td>
+                </tr>
+                <tr>
+                    <td><code>reset-velocity</code></td>
+                    <td>If true, the player's velocity will be reset when teleporting. This prevents fall damage if the player uses <code>/warp</code> while falling.</td>
+                </tr>
+                <tr>
+                    <td><code>messages</code></td>
+                    <td>Messages displayed by the plugin.</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
