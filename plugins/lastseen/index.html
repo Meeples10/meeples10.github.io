@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LastSeen | meeples10.github.io</title>
+        <link rel="stylesheet" type="text/css" href="../../style.css" />
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="header">
+            <h2 id="header-text">LastSeen</h2>
+        </div>
+        <div class="content">
+            <p>A plugin that allows you to view when a player was last online.</p>
+            
+            <h2>Downloads</h2>
+            <ul>
+                <li><a href="https://github.com/Meeples10/LastSeen/releases">GitHub</a></li>
+                <li><a href="https://www.spigotmc.org/resources/lastseen.110293/">SpigotMC</a></li>
+            </ul>
+
+            <h2>Commands</h2>
+            <table>
+                <tr>
+                    <th>Command</th>
+                    <th>Description</th>
+                    <th>Permission</th>
+                </tr>
+                <tr>
+                    <td><code>/seen &lt;name or UUID&gt;</code></td>
+                    <td>Shows when a player was last online.</td>
+                    <td><code>lastseen.use</code></td>
+                </tr>
+            </table>
+            
+            <p>Use the permission <code>lastseen.location</code> to also show the player's last location when using <code>/seen</code>.</p>
+
+            <h2>Configuration</h2>
+            <p>The default configuration file can be found <a href="https://github.com/Meeples10/LastSeen/blob/main/src/main/resources/config.yml">here</a>.</p>
+            <table>
+                <tr>
+                    <th>Key</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td><code>date-format</code></td>
+                    <td>The format string to use for dates. See <a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/text/SimpleDateFormat.html">here</a> for more information.</td>
+                </tr>
+                <tr>
+                    <td><code>messages</code></td>
+                    <td>Messages displayed by the plugin.</td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
