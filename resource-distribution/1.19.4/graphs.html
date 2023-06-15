@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minecraft 1.19.4 Resource Distributon | meeples10.github.io</title>
+        <link rel="stylesheet" type="text/css" href="../../style.css" />
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="header">
+            <h2 id="header-text">Minecraft 1.19.4 resource distribution by altitude</h2>
+        </div>
+        <div class="content">
+            <h2 id="overworld">Overworld</h2>
+            <canvas data-set="overworld" class="graph" width="1200" height="800"></canvas>
+            <button class="collapsible">Overworld Blocks</button>
+            <div class="collapsible-content graph-toggles" id="overworld-toggles"></div>
+            <br>
+            <h2 id="nether">Nether</h2>
+            <canvas data-set="nether" class="graph" width="1200" height="800"></canvas>
+            <button class="collapsible">Nether Blocks</button>
+            <div class="collapsible-content graph-toggles" id="nether-toggles"></div>
+            <br>
+            <h2 id="end">End</h2>
+            <canvas data-set="end" class="graph" width="1200" height="800"></canvas>
+            <button class="collapsible">End Blocks</button>
+            <div class="collapsible-content graph-toggles" id="end-toggles"></div>
+        </div>
+        <script src="../colors.js"></script>
+        <script src="data.js"></script>
+        <script src="../graph.js"></script>
+    </body>
+</html>
