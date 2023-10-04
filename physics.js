@@ -3,15 +3,16 @@ var physicsObjects = [];
 function enablePhysics() {
     var header = document.getElementById("header-text");
     header.removeAttribute("onclick");
-    init(header);
-    var code = document.getElementsByTagName("code");
+    init(header, true);
+    var code = document.getElementsByTagName("p");
     for(var i = 0; i < code.length; i++) {
-        init(code[i]);
+        init(code[i], false);
     }
     window.setInterval(calc, 16);
 }
 
-function init(element) {
+function init(element, pad) {
+    var id = getID();
     var s = "";
     var skip = false;
     for(var i = 0; i < element.innerHTML.length; i++) {
@@ -27,10 +28,10 @@ function init(element) {
             s += element.innerHTML.charAt(i);
             continue;
         }
-        var id = getID();
-        s += "<span id=\"" + id + "\">" + element.innerHTML.charAt(i) + "</span>";
+        var eid = id + "-" + i;
+        s += (pad ? "&nbsp;" : "") + "<span id=\"" + eid + "\">" + element.innerHTML.charAt(i) + "</span>";
         physicsObjects.push({
-            id: id,
+            id: eid,
             x: 0,
             y: 0,
             width: 0,
@@ -46,6 +47,8 @@ function init(element) {
         physicsObjects[i].y = bounds.top;
         physicsObjects[i].width = bounds.width;
         physicsObjects[i].height = bounds.height;
+        physicsObjects[i].vx = (Math.random() - 0.5) * 10;
+        physicsObjects[i].vy = (Math.random() - 0.5) * 10;
     }
     for(var i = 0; i < physicsObjects.length; i++) {
         var e = document.getElementById(physicsObjects[i].id);
@@ -58,20 +61,22 @@ function init(element) {
 function calc() {
     for(var i = 0; i < physicsObjects.length; i++) {
         var obj = physicsObjects[i];
-        obj.vy += 0.981;
         if(obj.y + obj.height + obj.vy > screen.height - 200) {
             obj.vy = -obj.vy * 0.5;
-            if(Math.random() > 0.5) {
+            /*if(Math.random() > 0.1) {
                 obj.vx = Math.random() * 10;
             } else {
                 obj.vx = -Math.random() * 10;
-            }
+            }*/
+            obj.vx *= 0.9;
             if(Math.abs(obj.vy) < 4) {
                 obj.vy *= Math.random() * 10;
             }
+        } else {
+            obj.vy += 0.981;
         }
         if((obj.vx < 0 && outOfBoundsX(obj.x + obj.vx)) || (obj.vx > 0 && outOfBoundsX(obj.x + obj.vx + obj.width))) {
-            obj.vx *= -1;
+            obj.vx = -10 * Math.sign(obj.vx);
         }
         obj.x += obj.vx;
         obj.y += obj.vy;
@@ -87,5 +92,5 @@ function outOfBoundsX(x) {
 
 
 function getID() {
-    return Math.round(Math.random() * 10000);
+    return Math.round(Math.random() * 100000);
 }
