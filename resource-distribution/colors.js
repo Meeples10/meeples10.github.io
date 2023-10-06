@@ -98,6 +98,7 @@ const colors = {
 "minecraft:chorus_flower":"977897",
 "minecraft:chorus_plant":"5D395D",
 "minecraft:clay":"A0A6B3",
+"minecraft:coal_block":"000000",
 "minecraft:coal_ore":"100F0F",
 "minecraft:coarse_dirt":"77553B",
 "minecraft:cobbled_deepslate":"4A4A4F",
