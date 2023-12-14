@@ -308,7 +308,7 @@ const colors = {
 "minecraft:nether_brick_fence":"2C151A",
 "minecraft:nether_brick_stairs":"2C151A",
 "minecraft:nether_bricks":"2C151A",
-"minecraft:nether_gold_ore":"73362A",
+"minecraft:nether_gold_ore":"F6D03D",
 "minecraft:nether_quartz_ore":"75413E",
 "minecraft:nether_sprouts":"139785",
 "minecraft:nether_wart":"450B0B",
